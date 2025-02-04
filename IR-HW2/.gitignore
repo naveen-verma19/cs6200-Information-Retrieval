@@ -1,0 +1,7 @@
+indexing/catalogs
+indexing/inverted-lists
+venv/
+__pycache__/
+.idea/
+/indexing/base32/
+/indexing/base64/

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f782ebf-f367-440b-b5e1-5798ac283649" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler_lib.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YKPU9pxthxHGaDa7NSLTm4g7cN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.crawler">
+    <configuration name="crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR-HW3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csvreader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR-HW3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csvreader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fib_heap" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR-HW3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fib_heap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flash_text_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR-HW3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flash_text_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IR-HW3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_request.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.crawler" />
+        <item itemvalue="Python.csvreader" />
+        <item itemvalue="Python.flash_text_test" />
+        <item itemvalue="Python.fib_heap" />
+        <item itemvalue="Python.test_request" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f782ebf-f367-440b-b5e1-5798ac283649" name="Default Changelist" comment="" />
+      <created>1582688326168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582688326168</updated>
+      <workItem from="1582688332150" duration="13121000" />
+      <workItem from="1582849940298" duration="71340000" />
+      <workItem from="1583336838527" duration="34124000" />
+      <workItem from="1583422199049" duration="3051000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="401" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583013028961">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="401" y="233" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.804@0.23.1440.804" timestamp="1582862332143" />
+    <state x="401" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.808@0.23.1440.808" timestamp="1583013028961" />
+    <state width="1398" height="185" key="GridCell.Tab.0.bottom" timestamp="1583426562425">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="185" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583426562425" />
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.798@0.23.1440.798" timestamp="1582847054081" />
+    <state width="1398" height="127" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1582859787507" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1582862726963" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583282216802" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1583291950668" />
+    <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1583103250917" />
+    <state width="1398" height="185" key="GridCell.Tab.0.center" timestamp="1583426562424">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="185" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1583426562424" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.798@0.23.1440.798" timestamp="1582847054081" />
+    <state width="1398" height="127" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1582859787506" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1582862726962" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1583282216801" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1583291950666" />
+    <state width="1398" height="212" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1583103250916" />
+    <state width="1398" height="185" key="GridCell.Tab.0.left" timestamp="1583426562423">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="185" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1583426562423" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.798@0.23.1440.798" timestamp="1582847054080" />
+    <state width="1398" height="127" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1582859787505" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1582862726962" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1583282216801" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1583291950663" />
+    <state width="1398" height="212" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1583103250915" />
+    <state width="1398" height="185" key="GridCell.Tab.0.right" timestamp="1583426562424">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="185" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1583426562424" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.798@0.23.1440.798" timestamp="1582847054081" />
+    <state width="1398" height="127" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1582859787506" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1582862726963" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1583282216802" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1583291950667" />
+    <state width="1398" height="212" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1583103250916" />
+    <state width="1398" height="281" key="GridCell.Tab.1.bottom" timestamp="1583423403218">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1583423403218" />
+    <state width="1398" height="252" key="GridCell.Tab.1.bottom/0.23.1440.798@0.23.1440.798" timestamp="1582847055123" />
+    <state width="1398" height="279" key="GridCell.Tab.1.bottom/0.23.1440.801@0.23.1440.801" timestamp="1582859715564" />
+    <state width="1398" height="279" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1582861845823" />
+    <state width="1398" height="408" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1583281286270" />
+    <state width="1398" height="408" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1583291950620" />
+    <state width="1398" height="151" key="GridCell.Tab.1.bottom/0.23.1440.811@0.23.1440.811" timestamp="1583091944948" />
+    <state width="1398" height="281" key="GridCell.Tab.1.center" timestamp="1583423403218">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1583423403218" />
+    <state width="1398" height="252" key="GridCell.Tab.1.center/0.23.1440.798@0.23.1440.798" timestamp="1582847055123" />
+    <state width="1398" height="279" key="GridCell.Tab.1.center/0.23.1440.801@0.23.1440.801" timestamp="1582859715563" />
+    <state width="1398" height="279" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1582861845823" />
+    <state width="1398" height="408" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1583281286269" />
+    <state width="1398" height="408" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1583291950619" />
+    <state width="1398" height="151" key="GridCell.Tab.1.center/0.23.1440.811@0.23.1440.811" timestamp="1583091944947" />
+    <state width="1398" height="281" key="GridCell.Tab.1.left" timestamp="1583423403217">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1583423403217" />
+    <state width="1398" height="252" key="GridCell.Tab.1.left/0.23.1440.798@0.23.1440.798" timestamp="1582847055122" />
+    <state width="1398" height="279" key="GridCell.Tab.1.left/0.23.1440.801@0.23.1440.801" timestamp="1582859715563" />
+    <state width="1398" height="279" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1582861845822" />
+    <state width="1398" height="408" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1583281286268" />
+    <state width="1398" height="408" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1583291950618" />
+    <state width="1398" height="151" key="GridCell.Tab.1.left/0.23.1440.811@0.23.1440.811" timestamp="1583091944946" />
+    <state width="1398" height="281" key="GridCell.Tab.1.right" timestamp="1583423403218">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1398" height="281" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1583423403218" />
+    <state width="1398" height="252" key="GridCell.Tab.1.right/0.23.1440.798@0.23.1440.798" timestamp="1582847055123" />
+    <state width="1398" height="279" key="GridCell.Tab.1.right/0.23.1440.801@0.23.1440.801" timestamp="1582859715564" />
+    <state width="1398" height="279" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1582861845823" />
+    <state width="1398" height="408" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1583281286270" />
+    <state width="1398" height="408" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1583291950619" />
+    <state width="1398" height="151" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1583091944947" />
+    <state width="720" height="398" key="XDebugger.FullValuePopup" timestamp="1583373006559">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="720" height="398" key="XDebugger.FullValuePopup/0.23.1440.797@0.23.1440.797" timestamp="1583373006559" />
+    <state width="720" height="400" key="XDebugger.FullValuePopup/0.23.1440.804@0.23.1440.804" timestamp="1582860749051" />
+    <state width="720" height="402" key="XDebugger.FullValuePopup/0.23.1440.806@0.23.1440.806" timestamp="1583250256687" />
+    <state width="720" height="404" key="XDebugger.FullValuePopup/0.23.1440.811@0.23.1440.811" timestamp="1583096559754" />
+    <state x="399" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1583422199957">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="399" y="255" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1583422199957" />
+    <state x="399" y="256" key="com.intellij.ide.util.TipDialog/0.23.1440.801@0.23.1440.801" timestamp="1582849940602" />
+    <state x="399" y="257" key="com.intellij.ide.util.TipDialog/0.23.1440.804@0.23.1440.804" timestamp="1582688332120" />
+    <state x="386" y="177" width="667" height="486" key="find.popup" timestamp="1583377641283">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="386" y="177" width="667" height="486" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1583377641283" />
+    <state x="386" y="180" width="667" height="486" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1583096911385" />
+    <state x="450" y="321" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1582848055361">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="450" y="321" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.801@0.23.1440.801" timestamp="1582848055361" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/lib/python3.7/site-packages/adblockparser/parser.py</url>
+          <line>288</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_request.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fib_heap.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fib_heap.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="url_string.host" />
+        <watch expression="link.text" language="Python" />
+        <watch expression="href.lower().count(&quot;edit&quot;)" language="Python" />
+        <watch expression="sw in href.lower()" language="Python" />
+        <watch expression="processed_batch_html" language="Python" />
+        <watch expression="processed_batch_file_content" language="Python" />
+        <watch expression="header" language="Python" />
+        <watch expression="json.dumps(header)" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IR_HW3$flash_text_test.coverage" NAME="flash_text_test Coverage Results" MODIFIED="1583388328805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$crawler.coverage" NAME="crawler Coverage Results" MODIFIED="1583426525384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$csvreader.coverage" NAME="csvreader Coverage Results" MODIFIED="1583401492362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$test_request.coverage" NAME="test_request Coverage Results" MODIFIED="1583281676910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$test_pickle.coverage" NAME="test_pickle Coverage Results" MODIFIED="1582862172167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$fib_heap.coverage" NAME="fib_heap Coverage Results" MODIFIED="1583369544989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$crawler_lib.coverage" NAME="crawler_lib Coverage Results" MODIFIED="1583251133061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/IR_HW3$pageCleaner.coverage" NAME="pageCleaner Coverage Results" MODIFIED="1582862726951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

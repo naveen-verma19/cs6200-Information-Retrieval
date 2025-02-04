@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Calaca | Search UI for Elasticsearch</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/calaca.css" />
+    <script
+      src="bower_components/angular/angular.min.js"
+      type="text/javascript"
+    ></script>
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body ng-app="calaca" ng-controller="calacaCtrl">
+    <!-- Title and search box -->
+    <header class="jumbotron">
+      <h1 class="title">Calaca</h1>
+      <div class="search-box-container">
+        <input
+          type="text"
+          class="search-box"
+          placeholder="Search"
+          autofocus
+          ng-model="query"
+          ng-change="delayedSearch(0)"
+          readonly
+        />
+      </div>
+    </header>
+
+    <!-- Listing of search results -->
+    <main class="results-container" ng-cloak>
+      <section class="results-info">
+        <p id="response-details">
+          {{(hits | number) || 0}} {{resultsLabel || 'results'}} ({{(timeTook ||
+          0)}}ms)
+        </p>
+        <p ng-show="paginationEnabled()" id="pagination-details">
+          Showing {{paginationLowerBound}} - {{paginationUpperBound}}
+        </p>
+      </section>
+      <section>
+        <p>Please select the query:</p>
+        <input
+          type="radio"
+          id="152701"
+          name="query"
+          value="Fukushima nuclear accident"
+          onclick="changequery(this)"
+        />
+        <label for="152701">152701 Fukushima nuclear accident</label><br />
+        <input
+          type="radio"
+          id="152702"
+          name="query"
+          value="Chernobyl accident"
+          onclick="changequery(this)"
+        />
+        <label for="152702">152702 Chernobyl accident</label><br />
+        <input
+          type="radio"
+          id="152703"
+          name="query"
+          value="Three Mile Island accident"
+          onclick="changequery(this)"
+        />
+        <label for="152703">152703 Three Mile Island accident</label><br />
+        <input
+          type="radio"
+          id="152704"
+          name="query"
+          value="Kyshtym disaster"
+          onclick="changequery(this)"
+        />
+        <label for="152704">152704 Kyshtym disaster</label>
+        <br />
+      </section>
+      <section>
+        <p>Please select your name:</p>
+        <input type="radio" id="i" name="gender" value="I" />
+        <label for="i">Ishan</label><br />
+        <input type="radio" id="s" name="gender" value="S" />
+        <label for="s">Sameer</label><br />
+        <input type="radio" id="n" name="gender" value="N" />
+        <label for="n">Naveen</label>
+        <br />
+      </section>
+      <button onclick="create_dict_and_save()">Save Data</button>
+      <section class="results">
+        <p class="no-results" ng-show="!results.length && !loading">
+          No Results
+        </p>
+        <article
+          class="result"
+          ng-repeat="result in results track by $id(result)"
+        >
+          <section id="sec{{$index}}">
+            <p>{{$index}}</p>
+            <a href="{{result._id}}"><h2>{{result._id}}</h2></a>
+            <h2 class="score">{{result._score}}<h2>
+            <input
+              type="radio"
+              id="{{$index}}non-rel"
+              name="{{$index}}"
+              value="0"
+            />
+            <label for="{{$index}}non-rel">0 (non-relevant)</label><br />
+            <input
+              type="radio"
+              id="{{$index}}rel"
+              name="{{$index}}"
+              value="1"
+            />
+            <label for="{{$index}}rel">1 (relevant)</label><br />
+            <input
+              type="radio"
+              id="{{$index}}vrel"
+              name="{{$index}}"
+              value="2"
+            />
+            <label for="{{$index}}vrel">2 (very elevant)</label><br />
+          </section>
+        </article>
+      </section>
+      <section class="pagination-controls">
+        <button
+          ng-click="search(-1)"
+          ng-show="paginationEnabled() && offset !== 0"
+          class="pager"
+        >
+          Previous</button
+        ><button
+          ng-click="search(1)"
+          ng-show="paginationEnabled()"
+          class="pager"
+        >
+          Next
+        </button>
+      </section>
+    </main>
+
+    <!-- Load resources -->
+    <script
+      src="bower_components/angular-animate/angular-animate.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="bower_components/elasticsearch/elasticsearch.angular.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="js/config.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/controllers.js" type="text/javascript"></script>
+    <script src="js/services.js" type="text/javascript"></script>
+    <script>
+      function changequery(radio) {
+        let query = radio.value;
+        document.querySelectorAll(".search-box")[0].value = query;
+        document
+          .querySelectorAll(".search-box")[0]
+          .dispatchEvent(new Event("change"));
+      }
+      function getgrade(i) {
+        if (document.querySelector("#sec" + i + " input:checked")) {
+          return document.querySelector("#sec" + i + " input:checked").value;
+        } else {
+          return null;
+        }
+      }
+      function getScore(i) {
+       return parseFloat(document.querySelector("#sec" + i + " .score").innerText)
+      }
+      function create_dict_and_save() {
+        qid = document.querySelector('input[name="query"]:checked').id;
+        aid = document.querySelector('input[name="gender"]:checked').value;
+        final_dict = {};
+        final_dict[qid] = {};
+        final_dict[qid][aid] = {};
+        for (var i = 0; i < 200; i++) {
+          id = document.querySelector("#sec" + i + " a").href;
+          g = getgrade(i);
+          if (g) {
+            final_dict[qid][aid][id] = { row_index: i,score:getScore(i),grade: getgrade(i)};
+          }
+        }
+        var data =
+          "text/json;charset=utf-8," +
+          encodeURIComponent(JSON.stringify(final_dict));
+
+        var a = document.createElement("a");
+        a.href = "data:" + data;
+        a.download = "data.json";
+        a.innerHTML = "download JSON";
+
+        var container = document.getElementsByTagName("body")[0];
+        container.appendChild(a);
+        a.click();
+      }
+    </script>
+  </body>
+</html>
